@@ -16,8 +16,15 @@ This folder is dedicated to the module which would get the words embeddings and 
       3. I have tried scaling X to the mean and std of Y, did not change much. (25th Apr - 16:50:52 trail)
       4. But once I have scaled the embeddings and the output, the loss has dropped. (Even if I have not scaled the embeddings.)
 
+## Model Freeze Logs
+| Model Name | Remarks | 
+|:----------- | :--------- |
+| 20240508-142418.pth | Adjusted the dropout rates. The error > 0.05, are 23/207 |
+
 
 
 ## Links
 ANEW Dataset Link: [link](https://osf.io/y6g5b/wiki/anew/)
 XANEW Dataset Link: [link](https://github.com/JULIELab/XANEW)
+
+
