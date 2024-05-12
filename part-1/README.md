@@ -20,6 +20,7 @@ This folder is dedicated to the module which would get the words embeddings and 
 | Model Name | Remarks | 
 |:----------- | :--------- |
 | 20240508-142418.pth | Adjusted the dropout rates. The error > 0.05, are 23/207 |
+| 20240508-153538.pth | Used the Warriner et al dataset. The error > 0.05 are 100/2783 (3.5%) the average loss is 0.01 for valence between 0 and 1| 
 
 
 
