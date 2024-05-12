@@ -1,4 +1,5 @@
 dataset
 mod_dataset
 cc.en.300.bin
+**.pkl
 .DS_Store
