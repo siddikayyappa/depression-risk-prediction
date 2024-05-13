@@ -1,0 +1,11 @@
+@startuml
+class Word
+class FastText
+class Embeddings
+class MLP
+class VA_values
+Word -> FastText : text
+FastText -> Embeddings : vector
+Embeddings -> MLP : vector
+MLP -> VA_values : vector
+@enduml
